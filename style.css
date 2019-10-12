@@ -1,0 +1,186 @@
+body{
+	width: 100%;
+	background-color: rgb(250,250,250);
+	text-align: center;
+}	
+
+/****************HEAD*********/
+
+
+#section-head{
+	width: 100%;
+	padding: 60px 0 60px 0;
+	background: url(img/banner.jpg);
+	background-size: cover;
+	text-align: center;
+	
+	
+}
+
+.head{
+	height: 50%;
+	vertical-align: center;
+}
+
+.head h1{
+	color: rgb(200,200,200);
+	font-family: 'Montserrat:800', sans-serif;
+	
+}
+
+.head p{
+	font-family: 'Quicksand', sans-serif;
+	color:rgb(250,250,250);
+	padding-bottom: 20px;
+	
+}
+
+.head button{
+	width: 200px;
+	height: 50px;
+	border-radius: 0%;
+	padding-bottom: 50px;
+
+}
+
+.head button>a{
+	text-decoration: none;
+	color:rgb(250,250,250);
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	
+	
+
+}
+
+@media screen and (max-width: 576px) {
+	.head h1{
+		font-size: 30px;
+	}
+
+	.head p{
+		font-size: 15px;	
+	}
+
+
+	#section-head{
+		height: 250px;
+	}
+
+}
+
+@media screen and (min-width: 577px max-width: 778px) {
+	.head h1{
+		font-size: 40px;
+	}
+
+	.head p{
+		font-size: 20px;	
+	}
+
+	#section-head{
+		height: 450px;
+		padding: 700px 0 60px 0;
+
+	}
+
+
+}
+
+@media screen and (min-width: 779px) {
+	.head h1{
+		font-size: 60px;
+	}
+
+	.head p{
+		font-size: 30px;	
+	}
+
+	#section-head{
+		padding-bottom: 80px;
+		height: 450px;
+	}
+
+	.head button>a{
+
+	}
+}
+
+
+
+
+
+
+
+/*********SECTION 02***********/
+
+.desc-images{
+	
+	/*width: 100%;*/
+	background-color: rgba(230,230,230,1);
+	border:  1px solid  rgba(230,230,230,1);
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+
+}
+
+.desc-images img {
+	width: 250px;
+
+}
+
+@media screen and (max-width: 576px) {
+	.desc-images img{
+		width: 150px;
+	}
+
+	.desc-images h2{
+		font-size: 20px;
+	}
+
+	.desc-images p{
+		font-size: 15px;
+	}
+}
+
+
+
+/*********Footer***********/
+footer {
+	background-color: rgb(40,40,40);
+	border: 1px solid rgb(40,40,40);
+	padding: 20px 0 20px 0;
+}
+
+footer a{
+	text-decoration: none;
+	text-align: center;
+}
+
+footer a:hover{
+	color: red;
+}
+
+.socialmedia{
+	text-align: center;
+
+}
+
+.socialmedia a>i{
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 40px;
+	letter-spacing: 20px;
+	padding: 20px 0 20px 0;
+
+}
+
+.credit{
+	color: rgba(230,230,230,1);
+	text-align: center;
+	font-family: 'Montserrat:100', sans-serif;
+}
+
+
+
+
